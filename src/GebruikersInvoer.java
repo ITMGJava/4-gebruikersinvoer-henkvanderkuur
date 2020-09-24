@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class GebruikersInvoer {
     public static void main(String[] args) {
-        System.out.println("Voer een woord in, dan gaan de lengte bepalen: ");
+        System.out.println("Voer een woord in, dan gaan we de lengte bepalen: ");
         var woordinvoer = new Scanner(System.in);
         var woord = woordinvoer.next();
         System.out.println("De lengte van het woord \""+woord+"\" is: "+woord.length()+" karakters.");
