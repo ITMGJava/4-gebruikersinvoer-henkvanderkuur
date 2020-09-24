@@ -9,7 +9,7 @@ public class GebruikersInvoer {
 
         var getalinvoer = new Scanner(System.in);
         var leeftijd = getalinvoer.nextInt();
-        leeftijd = leeftijd + 8;
+        leeftijd = leeftijd + 4;
         System.out.println("Je bent waarschijnlijk: "+leeftijd+" :-)");
 
         System.out.println("Voer een getal in, dan gaan we het vermenigvuldigen: ");
