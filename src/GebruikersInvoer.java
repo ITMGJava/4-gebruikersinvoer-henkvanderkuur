@@ -2,7 +2,9 @@ import java.util.Scanner;
 
 public class GebruikersInvoer {
     public static void main(String[] args) {
-        var woord = "appel";
+        System.out.println("Voer een woord in, dan gaan de lengte bepalen: ");
+        var woordinvoer = new Scanner(System.in);
+        var woord = woordinvoer.next();
         System.out.println("De lengte van het woord is: "+woord.length());
 
         System.out.println("Voer je leeftijd in: ");
