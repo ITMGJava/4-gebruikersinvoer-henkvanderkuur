@@ -5,7 +5,7 @@ public class GebruikersInvoer {
         System.out.println("Voer een woord in, dan gaan de lengte bepalen: ");
         var woordinvoer = new Scanner(System.in);
         var woord = woordinvoer.next();
-        System.out.println("De lengte van het woord <"+woord+"> is: "+woord.length()+" karakters.");
+        System.out.println("De lengte van het woord \""+woord+"\" is: "+woord.length()+" karakters.");
         System.out.println();
         System.out.println();
 
@@ -21,7 +21,7 @@ public class GebruikersInvoer {
         System.out.println("Voer een getal in, dan gaan we het vermenigvuldigen: ");
         var getal = new Scanner(System.in);
         var tafel = getal.nextInt();
-        System.out.println("Dit is de tafel van "+tafel);
+        System.out.println("Dit is de tafel van: "+tafel);
         var b = tafel * 2;
         var c = tafel * 3;
         var d = tafel * 4;
