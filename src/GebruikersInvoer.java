@@ -5,14 +5,18 @@ public class GebruikersInvoer {
         System.out.println("Voer een woord in, dan gaan de lengte bepalen: ");
         var woordinvoer = new Scanner(System.in);
         var woord = woordinvoer.next();
-        System.out.println("De lengte van het woord is: "+woord.length());
+        System.out.println("De lengte van het woord <"+woord+"> is: "+woord.length()+" karakters.");
+        System.out.println();
+        System.out.println();
 
-        System.out.println("Voer je leeftijd in: ");
+        System.out.println("Voer nu je leeftijd in: ");
 
         var getalinvoer = new Scanner(System.in);
         var leeftijd = getalinvoer.nextInt();
         leeftijd = leeftijd + 4;
-        System.out.println("Je bent waarschijnlijk: "+leeftijd+" :-)");
+        System.out.println("Hmmm dat betwijfel ik, je bent waarschijnlijk: "+leeftijd+" :-)");
+        System.out.println();
+        System.out.println();
 
         System.out.println("Voer een getal in, dan gaan we het vermenigvuldigen: ");
         var getal = new Scanner(System.in);
